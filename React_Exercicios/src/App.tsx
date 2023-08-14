@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css'
-import MeuBotao from './Atividades/AppElevação_Contador';
-
+import AppTarefaEditar from './Atividades/AppTarefas/AppTarefas';
+import AppTarefaLista from './Atividades/AppTarefas/AppTarefasLista';
 
 const App = () => {
   
@@ -9,7 +9,8 @@ const App = () => {
   return (
     <>
       <h1>Atividades</h1>
-      
+      <AppTarefaEditar/>
+      <AppTarefaLista/>
     </>
   )
 }
